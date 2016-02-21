@@ -1,0 +1,34 @@
+{
+  "name": "gl-scene-normal-material",
+  "version": "1.0.0",
+  "description": "normal material for 3d scenes using stack.gl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/gl-scene-normal-material.git"
+  },
+  "keywords": [
+    "normal",
+    "3d",
+    "shader",
+    "webgl",
+    "stackgl"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/gl-scene-normal-material/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/gl-scene-normal-material#readme",
+  "dependencies": {
+    "glslify": "^5.0.2"
+  }
+}
