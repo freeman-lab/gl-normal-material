@@ -5,4 +5,5 @@ module.exports = {
   uniforms: {
     saturation: {type: 'float', default: 0.75}
   }
+  name: 'normal'
 }
