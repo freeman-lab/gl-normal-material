@@ -12,7 +12,7 @@ npm install gl-normal-material
 
 ## usage
 
-Use with [`gl-material`](https://github.com/freeman-lab/gl-material) to generate a compiled shader
+Use with [`gl-material`](https://github.com/freeman-lab/gl-material) to generate a compiled shader, given a `gl` context and constants to replace
 
 ```javascript
 var normal = require('gl-material-normal')
