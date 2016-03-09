@@ -1,26 +1,26 @@
-# gl-scene-normal-material
+# gl-material-normal
 
 Normal material for 3d scenes.
 
-A `material` is just a fragment shader and a set of uniforms with defaults. Works well with [`gl-scene`](https://github.com/freeman-lab/gl-scene) and [`gl-scene-material`](https://github.com/freeman-lab/gl-scene-material), but can also be used on its own.
+A `material` is a fragment shader and a set of styles with defaults, as defined in [`gl-material`](https://github.com/freeman-lab/gl-material).
 
 ## install
 
 ```
-npm install gl-scene-normal-material
+npm install gl-normal-material
 ```
 
 ## usage
 
-Use with [`gl-scene-material`](https://github.com/freeman-lab/gl-scene-material) to generate a compiled shader
+Use with [`gl-material`](https://github.com/freeman-lab/gl-material) to generate a compiled shader
 
 ```javascript
-var normal = require('gl-scene-normal-material')
-var material = require('gl-scene-material')(gl, normal)
+var normal = require('gl-material-normal')
+var material = require('gl-material')(gl, normal)
 ```
 
 Or just get the fragment shader for use elsewhere
 
 ```javascript
-var fragment = require('gl-scene-normal-material').fragment
+var fragment = require('gl-material-normal').fragment
 ```
