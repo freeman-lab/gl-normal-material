@@ -1,6 +1,6 @@
 # gl-material-normal
 
-Normal material for 3d scenes.
+Normal material for 3d rendering.
 
 A `material` is a fragment shader and a set of styles with defaults, as defined in [`gl-material`](https://github.com/freeman-lab/gl-material).
 
