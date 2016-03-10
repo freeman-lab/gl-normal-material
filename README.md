@@ -1,4 +1,4 @@
-# gl-material-normal
+# gl-normal-material
 
 Normal material for 3d rendering.
 
@@ -15,12 +15,12 @@ npm install gl-normal-material
 Use with [`gl-material`](https://github.com/freeman-lab/gl-material) to generate a compiled shader, given a `gl` context and constants to replace
 
 ```javascript
-var normal = require('gl-material-normal')
+var normal = require('gl-normal-material')
 var material = require('gl-material')(gl, normal)
 ```
 
 Or just get the fragment shader for use elsewhere
 
 ```javascript
-var fragment = require('gl-material-normal').fragment
+var fragment = require('gl-normal-material').fragment
 ```

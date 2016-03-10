@@ -1,5 +1,5 @@
 {
-  "name": "gl-material-normal",
+  "name": "gl-normal-material",
   "version": "1.0.0",
   "description": "normal material for 3d using stack.gl",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freeman-lab/gl-material-normal.git"
+    "url": "git+https://github.com/freeman-lab/gl-normal-material.git"
   },
   "keywords": [
     "normal",
@@ -25,15 +25,15 @@
   "author": "freeman-lab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freeman-lab/gl-material-normal/issues"
+    "url": "https://github.com/freeman-lab/gl-normal-material/issues"
   },
-  "homepage": "https://github.com/freeman-lab/gl-material-normal#readme",
+  "homepage": "https://github.com/freeman-lab/gl-normal-material#readme",
   "dependencies": {
     "glslify": "^5.0.2"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
-    "gl-test-material": "^1.0.1",
+    "gl-material-test": "^1.0.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
     "testron": "^1.2.0"
