@@ -4,7 +4,9 @@
   "description": "normal material for 3d using stack.gl",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test.js | testron | tap-spec"
+    "test": "browserify test.js | testron | tap-spec",
+    "build": "browserify demo/index.js -o demo/bundle.js",
+    "deploy": "surge demo gl-normal-material.surge.sh"
   },
   "browserify": {
     "transform": [
