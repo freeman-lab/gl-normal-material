@@ -18,7 +18,7 @@ As defined in [`gl-material`](https://github.com/freeman-lab/gl-material), a `ma
 
 > `absolute` : `bool` whether or not to take the absolute value, default `true`
 
-![image](image/sample.png)
+[![image](image/sample.png)](http://gl-normal-material.surge.sh/)
 
 ## install
 
