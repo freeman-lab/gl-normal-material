@@ -5,7 +5,7 @@ Normal material for 3d rendering.
 As defined in [`gl-material`](https://github.com/freeman-lab/gl-material), a `material` is a fragment shader and a set of styles with defaults. This material sets the RGB values of each vertex with the mesh's normal vector, which looks really cool and can also be useful for debugging. 
 
 --------------------------------------
-> style parameters
+> `STYLE PARAMETERS`
 
 > `saturation` : `float` color saturation, 0 is white, 1 is full color
 
