@@ -10,9 +10,9 @@ The "normal" material sets the RGB values of each vertex with the mesh's normal 
 --------------------------------------
 > style parameters
 
-> `saturation` `float` color saturation, 0 is white, 1 is full color
+> `saturation` • `float` • color saturation, 0 is white, 1 is full color
 
-> `absolute` `bool` whether or not to take the absolute value
+> `absolute` • `bool` • whether or not to take the absolute value
 
 ## install
 
