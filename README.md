@@ -7,9 +7,9 @@ As defined in [`gl-material`](https://github.com/freeman-lab/gl-material), a `ma
 --------------------------------------
 > `STYLE PARAMETERS`
 
-> `saturation` : `float` color saturation, 0 is white, 1 is full color
+> `saturation` : `float` color saturation, 0 is white, 1 is full color, default `0.75`
 
-> `absolute` : `bool` whether or not to take the absolute value
+> `absolute` : `bool` whether or not to take the absolute value, default `true`
 
 ## install
 
